@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>Mobile Phone </title>
+</head>
+<body>
+
+    <h1>Mobile Phone </h1>
+
+    <label for="filterOption">Search By:</label>
+    <select id="filterOption">
+        <option value="brand">Brand</option>
+        <option value="model">Model</option>
+        <option value="price">Price</option>
+        <option value="camera">Camera</option>
+        <!-- Add more options as needed -->
+    </select>
+
+    <label for="filterValue">Enter Value:</label>
+    <input type="text" id="filterValue" placeholder="Enter value...">
+
+    <button onclick="filterMobilePhones()">Search</button>
+
+    <ul id="mobileList">
+        <li>Brand: RedMe, Model: RedMeA10, Price: 25000</li>
+        <li>Brand: Vivo, Model: VivoY20, Price: 33000</li>
+        <li>Brand: Vivo, Model: VivoY11, Price: 45000</li>
+        <li>Brand: Vivo, Model: VivoY15, Price: 30000</li>
+        <li>brand: Motorola, Model: Motorola123, Price:5000</li>
+        <li>Brand: Iphone, Model: Iphone12, Price: 400000</li>
+          <li>  Brand: Iphone, Model: Iphone13, Price: 500000</li>
+            <li>Brand: Iphone, Model: IphoneX, Price: 600000</li>
+        
+            
+        <!-- Mobile phones will be dynamically generated here -->
+    </ul>
+
+</body>
+</html>
+
